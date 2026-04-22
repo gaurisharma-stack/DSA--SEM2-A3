@@ -1,0 +1,38 @@
+'''~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sorting Performance Analyzer (SPA) in Python
+Course: ETCCDS202 - Data Structures
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Data Structures (ETCCDS202)
+
+Name of the School:	School of Engineering & Technology 
+Program: B.Tech CSE (AI and ML) 
+Course Title: Data Structures 
+Course Code: ETCCDS202 
+Unit Title: Foundations & Algorithmic Analysis 
+Student Name: GAURI SHARMA
+Roll Number: 2501730108
+Section: A 
+Semester: 2 
+Batch: 2025-26 
+Submitted To: Mrs. Neetu Chauhan 
+Submission Date: 
+'''
+
+
+Correctness Check: [5, 2, 9, 1, 5, 6]
+Insertion: [1, 2, 5, 5, 6, 9]
+Merge:     [1, 2, 5, 5, 6, 9]
+Quick:     [1, 2, 5, 5, 6, 9]
+
+Dataset Type         | Insertion (ms)  | Merge (ms)   | Quick (ms)  
+----------------------------------------------------------------------
+Random_1000          | 27.12           | 2.39         | 1.96        
+Sorted_1000          | 0.11            | 1.81         | 41.53       
+Reverse_1000         | 36.43           | 1.22         | 21.96       
+Random_5000          | 444.95          | 7.18         | 4.67        
+Sorted_5000          | 0.51            | 6.09         | 923.80      
+Reverse_5000         | 764.03          | 4.94         | 644.69      
+Random_10000         | 1588.19         | 14.66        | 11.10       
+Sorted_10000         | 0.67            | 9.00         | 3208.28     
+Reverse_10000        | 2970.70         | 9.69         | 2232.06 
